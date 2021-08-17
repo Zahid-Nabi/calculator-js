@@ -11,7 +11,6 @@ for(let btn of buttons){
         }
     });
 }
-
 document.getElementById('equals-to').addEventListener('click', function(){
     if(display.value == ''){
         display.value = 0;
@@ -19,5 +18,4 @@ document.getElementById('equals-to').addEventListener('click', function(){
     else{
         display.value = eval(display.value);
     }
-    
 })
